@@ -145,11 +145,11 @@ if __name__ == "__main__":
 
     # 예시 2: 여러 파일에서 함수 이름 교체
     # 예상 도구 사용 흐름: 파일 목록 확인 → 각 파일 읽기 → 문자열 교체 (replace)
-    user_question = "test_files 폴더 내 모든 파일에서 'def foo'를 'def foo_renamed'로 바꿔줘."
+    user_question = "test_files 폴더 내 모든 파일에서 'def foo'를 'def foo_renamed'로 바꿔줘"
 
     # 예시 3: 함수 위에 docstring(주석) 추가
     # 예상 도구 사용 흐름: 파일 목록 확인 → 각 파일 읽기 → 문자열 삽입 (insert)
-    # user_question = "test_files 폴더의 모든 .py 파일에서 함수 정의 위에 docstring(주석)을 추가해줘. 예: def foo() 위에 '# 이 함수는 hello를 출력합니다' 추가."
+    # user_question = "test_files 폴더의 모든 .py 파일에서 함수 정의 위에 주석을 한글로 추가해줘"
     
     
     run_agent(user_question)
